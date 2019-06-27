@@ -1,0 +1,11 @@
+constants:
+    a, b, & n
+
+variable next
+
+Get user input cur
+
+Method getPseudorandom
+    next = (a+cur * b)%n
+    n = next
+    return next;
